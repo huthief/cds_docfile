@@ -1,10 +1,14 @@
 <?php
+/************************************
+ * 
+ * 20200715	huthief	增加班務管理權限選項
+ */
 $modversion = array();
 //---模組基本資訊---//
 //模組名稱
 $modversion['name'] = _MI_CDSDOCFILE_NAME;
 //模組版次
-$modversion['version']	= '1.0';
+$modversion['version']	= '1.1';
 //模組作者
 $modversion['author'] = _MI_CDSDOCFILE_AUTHOR;
 //模組說明
