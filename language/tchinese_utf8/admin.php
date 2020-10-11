@@ -6,6 +6,7 @@ define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://cam
 
 define("_MA_CDSDOCFILE_ADMENU1", "主管理介面");
 define("_MA_CDSDOCFILE_ADMENU_PERMISSION_FUNCTIONS", "道務文書管理權限設定");
+define("_MA_CDSDOCFILE_ADMENU_AUTHORIZATION_FUNCTIONS", "道務文書管理授權設定");
 
 define("_MA_CDSDOCFILE_PERM_FUNCTIONS", "功能權限");
 ?>
