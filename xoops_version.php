@@ -1,14 +1,15 @@
 <?php
-/************************************
- * 20200831	huthief	增加報到管理授權設定
- * 20200715	huthief	增加班務管理權限選項
+/************************************	
+ * 20201108	v1.3		huthief	增加權限項目 '403'=>'活動類別-班務畢班選擇，'404'=>'活動可實質刪除資料'
+ * 20200831	v1.2		huthief	增加報到管理授權設定
+ * 20200715	v1.1		huthief	增加班務管理權限選項
  */
 $modversion = array();
 //---模組基本資訊---//
 //模組名稱
 $modversion['name'] = _MI_CDSDOCFILE_NAME;
 //模組版次
-$modversion['version']	= '1.2';
+$modversion['version']	= '1.3';
 //模組作者
 $modversion['author'] = _MI_CDSDOCFILE_AUTHOR;
 //模組說明
