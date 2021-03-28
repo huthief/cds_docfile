@@ -17,8 +17,29 @@ $adminmenu[$i]['icon']  = "images/admin/category.png";
 
 $i++;
 
-$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_FUNCTIONS;
-$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_functions.php';
-$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_FUNCTIONS;
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOMEMBER_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_taomember_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOMEMBER_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
+
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CHECKIN_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_checkin_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CHECKIN_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
+
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOSEMINAR_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_taoseminar_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOSEMINAR_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
+
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CLASS_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_class_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CLASS_FUNCTIONS;
 $adminmenu[$i]['icon']  = "images/admin/category.png";
 

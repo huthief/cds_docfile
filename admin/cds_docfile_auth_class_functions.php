@@ -15,17 +15,25 @@ $module_id = $xoopsModule->getVar('mid');
 //$xoopsTpl->assign('jquery_path', $jquery_path);
 
 //標題
-$title_of_form = '崇德道務文書管理子系統授權設定';
+$title_of_form = '崇德道務文書-班務子系統權限設定';
 
 //權限名稱，自該模組中應該是唯一的
-$perm_name = 'cds_docfile_permission_functions';
+$perm_name = 'cds_docfile_authorization_class_functions';
 
 //權限設定摘要說明
-$perm_desc = '崇德道務文書管理子系統授權設定';
+$perm_desc = '崇德道務文書-班務子系統權限設定';
 
 //權限項目
 
-$item_list = array('10'=>'三表五愿','100'=>'道親資料維護','150'=>'公職維護','200'=>'道親資料報表','400'=>'活動報到','600'=>'班務管理','800'=>'法會管理','898'=>'法會進班查詢');
+$item_list = array(
+		'611'=>'班別基本資料查詢',
+		'612'=>'班別基本資料增修',
+		'613'=>'班別基本資料刪除',
+		'621'=>'班員資料查詢',
+		'622'=>'班員資料增修',
+		'623'=>'班員資料刪除',
+		'699'=>'班務文書助理授權',
+);
 
 //建立並顯示表單
 $form = new XoopsGroupPermForm($title_of_form, $module_id, $perm_name, $perm_desc);
