@@ -31,6 +31,13 @@ $adminmenu[$i]['icon']  = "images/admin/category.png";
 
 $i++;
 
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAORECEIVING_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_taoreceiving_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAORECEIVING_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
+
 $adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOSEMINAR_FUNCTIONS;
 $adminmenu[$i]['link']  = 'admin/cds_docfile_auth_taoseminar_functions.php';
 $adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOSEMINAR_FUNCTIONS;

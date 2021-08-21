@@ -1,5 +1,6 @@
 <?php
 /************************************	
+ * 20210801 v1.7		huthief 1.辦道系統權限設定 2.[授權]班務管理權限增加601解鎖
  * 20210328 v1.6		huthief 增加公職系統權限設定
  * 20210308 v1.5		huthief 子功能權限，拆開為各權限設定各自功能畫面
  * 20210105 v1.4		huthief 增加法會管理權限 '800'=>'法會管理','899'=>'法會進班查詢'
@@ -12,7 +13,7 @@ $modversion = array();
 //模組名稱
 $modversion['name'] = _MI_CDSDOCFILE_NAME;
 //模組版次
-$modversion['version']	= '1.6';
+$modversion['version']	= '1.7';
 //模組作者
 $modversion['author'] = _MI_CDSDOCFILE_AUTHOR;
 //模組說明
