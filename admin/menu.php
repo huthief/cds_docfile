@@ -21,6 +21,12 @@ $adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAOMEMBER_FUNCTION
 $adminmenu[$i]['icon']  = "images/admin/category.png";
 
 $i++;
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_HOLY_RESPONSIBILITY_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_holy_responsibility_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_HOLY_RESPONSIBILITY_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
 $adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CHECKIN_FUNCTIONS;
 $adminmenu[$i]['link']  = 'admin/cds_docfile_auth_checkin_functions.php';
 $adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CHECKIN_FUNCTIONS;
@@ -48,5 +54,11 @@ $i++;
 $adminmenu[$i]['title'] = _MI_CDSDOCFILE_GROUP_PERMISSION_CLASS_FUNCTIONS;
 $adminmenu[$i]['link']  = 'admin/cds_docfile_perm_group_class.php';
 $adminmenu[$i]['desc']  = _MI_CDSDOCFILE_GROUP_PERMISSION_CLASS_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+$i++;
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_AUDIT_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_audit_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_AUDIT_FUNCTIONS;
 $adminmenu[$i]['icon']  = "images/admin/category.png";
 

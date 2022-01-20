@@ -1,5 +1,7 @@
 <?php
+
 /************************************	
+ * 20220116	v1.9		huthief (1)新增公職資料權限設定 (2)新增稽核資料權限設定
  * 20210824	v1.8		huthief 班務子系統增加群組資料權限範圍設定
  * 20210801 v1.7		huthief 1.增加 '700'=>權限設定 2.[授權]班務管理權限增加601解鎖
  * 20210328 v1.6		huthief 增加公職系統權限設定
@@ -14,7 +16,7 @@ $modversion = array();
 //模組名稱
 $modversion['name'] = _MI_CDSDOCFILE_NAME;
 //模組版次
-$modversion['version']	= '1.8';
+$modversion['version']	= '1.9';
 //模組作者
 $modversion['author'] = _MI_CDSDOCFILE_AUTHOR;
 //模組說明
