@@ -15,18 +15,19 @@ $module_id = $xoopsModule->getVar('mid');
 //$xoopsTpl->assign('jquery_path', $jquery_path);
 
 //標題
-$title_of_form = '崇德道務文書-稽核資料子系統權限設定';
+$title_of_form = '崇德道務文書-系統維護管理子系統權限設定';
 
 //權限名稱，自該模組中應該是唯一的
 $perm_name = 'cds_docfile_authorization_audit_functions';
 
 //權限設定摘要說明
-$perm_desc = '崇德道務文書-稽核資料子系統權限設定';
+$perm_desc = '崇德道務文書-系統維護管理子系統權限設定';
 
 //權限項目
 
 $item_list = array(
-	'Z011' => '稽核資料查詢');
+	'Z011' => '稽核資料查詢',
+	'Z012' => '帳號綁定解鎖');
 
 //建立並顯示表單
 $form = new XoopsGroupPermForm($title_of_form, $module_id, $perm_name, $perm_desc);

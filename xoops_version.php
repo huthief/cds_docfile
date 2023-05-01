@@ -1,6 +1,7 @@
 <?php
 
 /************************************- 
+ * 20230501 v1.13       huthief [授權]稽核子系統改名為系統維護管理子系統
  * 20221026 v1.12       huthief [授權]班務子系統新增604名冊表文文字權限設定
  * 20221020 v1.11       huthief [授權]班務子系統新增603清空班員資料權限設定
  * 20220921 v1.10       huthief [授權]班務子系統新增602報到者立愿回饋權限設定
@@ -19,7 +20,7 @@ $modversion = array();
 //模組名稱
 $modversion['name'] = _MI_CDSDOCFILE_NAME;
 //模組版次
-$modversion['version']	= '1.12';
+$modversion['version']	= '1.13';
 //模組作者
 $modversion['author'] = _MI_CDSDOCFILE_AUTHOR;
 //模組說明
