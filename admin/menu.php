@@ -32,6 +32,14 @@ $adminmenu[$i]['link']  = 'admin/cds_docfile_auth_checkin_functions.php';
 $adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_CHECKIN_FUNCTIONS;
 $adminmenu[$i]['icon']  = "images/admin/category.png";
 
+//天榜簿
+$i++;
+$adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_HOLYHOUSEHOLD_FUNCTIONS;
+$adminmenu[$i]['link']  = 'admin/cds_docfile_auth_holyhousehold_functions.php';
+$adminmenu[$i]['desc']  = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_HOLYHOUSEHOLD_FUNCTIONS;
+$adminmenu[$i]['icon']  = "images/admin/category.png";
+
+
 $i++;
 $adminmenu[$i]['title'] = _MI_CDSDOCFILE_ADMENU_AUTHORIZATION_TAORECEIVING_FUNCTIONS;
 $adminmenu[$i]['link']  = 'admin/cds_docfile_auth_taoreceiving_functions.php';
