@@ -15,31 +15,17 @@ $module_id = $xoopsModule->getVar('mid');
 //$xoopsTpl->assign('jquery_path', $jquery_path);
 
 //標題
-$title_of_form = '崇德道務文書-班務子系統權限設定';
+$title_of_form = '崇德道務文書功能授權設定';
 
 //權限名稱，自該模組中應該是唯一的
-$perm_name = 'cds_docfile_authorization_class_functions';
+$perm_name = 'cds_docfile_authorization_functions';
 
 //權限設定摘要說明
-$perm_desc = '崇德道務文書-班務子系統權限設定';
+$perm_desc = '崇德道務文書管理功能授權設定';
 
 //權限項目
 
-$item_list = array(
-		'601'=>'班別基本資料解鎖',
-		'602'=>'報到者立愿回饋',
-		'603' => '清空班員資料',
-		'604' => '名冊表尾文字',
-		'611'=>'班別基本資料查詢',
-		'612'=>'班別基本資料增修',
-		'613'=>'班別基本資料刪除',
-		'614' => '批次刪除班別與班員資料',
-		'621'=>'班員資料查詢',
-		'622'=>'班員資料增修',
-		'623'=>'班員資料刪除',
-		'632'=>'班務組長增修', 
-		'699'=>'班務文書助理授權',
-);
+$item_list = array('401'=>'活動解鎖','402'=>'活動立愿轉道籍資料', '403'=>'活動類別-班務畢班選擇','404'=>'活動可實質刪除資料', '601'=>'班別基本資料維護','801'=>'法會解鎖','802'=>'法會立愿轉道籍資料','804'=>'法會可實質刪除資料' );
 
 //建立並顯示表單
 $form = new XoopsGroupPermForm($title_of_form, $module_id, $perm_name, $perm_desc);
