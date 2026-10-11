@@ -9,8 +9,8 @@ if ($xoopsUser) {
     $module_id = $xoopsModule->getVar('mid');
     $isAdmin   = $xoopsUser->isAdmin($module_id);
 }
-$interface_menu[_MD_CDSDOCFILE_MOD]="index.php";
+$interface_menu[(defined('_MD_CDSDOCFILE_MOD') ? _MD_CDSDOCFILE_MOD : '_MD_CDSDOCFILE_MOD')]="index.php";
 
 if($isAdmin){
-  $interface_menu[_TO_ADMIN_PAGE]="admin/index.php";
+  $interface_menu[(defined('_TO_ADMIN_PAGE') ? _TO_ADMIN_PAGE : '_TO_ADMIN_PAGE')]="admin/index.php";
 }
